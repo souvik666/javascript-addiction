@@ -12,12 +12,13 @@ for (var i =0; i<data.length; i++){
     hook[temp]++
   }
 }
-var ans = ""
+var ans;      //small edit.
+var max = 0;
 for(i in hook){
-  var max = hook[0]
   if (hook[i]>max){
     max = hook[i]
-    var ans = i
+    ans = i
   }
 }
-console.log(max, ans)
+
+console.log(ans)
