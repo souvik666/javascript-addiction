@@ -21,7 +21,7 @@ function detectPalindrom(el) {
         check if the count of odd is less or greather than 1
         if the count off odd is greather then 1 then it's not
         a palindrom, in the case of aaaaa-- > aa aa a so here
-        two pari is possible that's why it's a palindrom */
+        two part is possible that's why it's a palindrom */
 
     for (var i in magicObj) {
         counter += magicObj[i] % 2
